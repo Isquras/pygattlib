@@ -9,7 +9,7 @@ OBJECTS  = att.o crypto.o uuid.o gatt.o gattrib.o btio.o log.o utils.o \
 
 ifeq ($(PYTHON_VER),3)
   PYTHON_CONFIG = python3-config
-  BOOST_PYTHON  = boost_python-py34
+  BOOST_PYTHON  = boost_python3
 else
   PYTHON_CONFIG = python-config
   BOOST_PYTHON  = boost_python
